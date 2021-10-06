@@ -1,10 +1,10 @@
 package kadai;
 
 public class Bonus{
-    String number;
+    private String number;
 
-    int pay, rank;
-    int paiedLeave, absence;
+    private int pay, rank;
+    private int paiedLeave, absence;
 
     public void setNumber(String number){
         this.number = number;
